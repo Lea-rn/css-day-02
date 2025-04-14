@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+.title-container{
+    border:solid 5px blue;
+    width:30% ;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin: 0px auto;
+ padding-top: 50px ;
+  */
+    
+}
+
+.pragraphe{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+  
+  }
+
+
+  
+
+  section p {
+    color: red;
+  }
+
+  .title-container p {
+    color: aqua;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+
+  }
+
+  /* a {
+    text-decoration: none;
+  } */
+
+  button {
+    cursor: pointer;
+    background-color: rgb(153, 186, 235);
+    color: white;
+    border: transparent;
+    border-radius: 8px;
+    padding: 3px 10px;
+    transition: 1s ease ;
+  }
+
+  button:hover{
+    background-color:  rgb(85, 144, 233);
+    transform: scale(1.1,1.1);
+
+  }
+
+  .over{
+    border: solid 5px;
+    width: 40%;
+    height: 100px;
+    overflow: scroll;
+    
+  }
+
+   body {
+    margin: 0px;
+    padding: 0px;
+   }
+  header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 0px 80px;
+    text-decoration: none;
+    font-weight: 800;
+    color:black;
+    
+  }
+  header h3 {
+    margin-left: 80px;
+    cursor: pointer;
+  }
+
+  nav a:hover{
+    color: purple;
+  }
